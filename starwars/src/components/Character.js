@@ -12,6 +12,11 @@ const StyledCharacter = styled.div`
         text-align:center;
         color:black;
     }
+    button {
+        background: white;
+        width:10%;
+        height:40px;
+    }
 `
 function Character ({person} ) {
     return (
