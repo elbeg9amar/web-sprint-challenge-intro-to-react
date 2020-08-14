@@ -6,11 +6,11 @@ const StyledCharacter = styled.div`
     width:40%;
     border-style: dotted;
     margin: 0% 30% 0% 30% ;
-    background-color: black;
+    background-color: white;
     p {
         font-size:25px;
         text-align:center;
-        color:white;
+        color:black;
     }
 `
 function Character ({person} ) {
